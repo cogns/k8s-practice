@@ -76,3 +76,6 @@ spec:
               secretKeyRef:
                 key: AWS_SECRET_KEY
                 name: cogns-app-secrets
+
+
+                
