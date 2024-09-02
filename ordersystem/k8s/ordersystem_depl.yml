@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: ordersystem-deployment
   namespace: cogns
+  
 spec:
   replicas: 2
   selector:
@@ -79,4 +80,3 @@ spec:
 
 
 
-                
