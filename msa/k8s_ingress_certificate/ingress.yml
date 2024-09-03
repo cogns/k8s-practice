@@ -20,20 +20,20 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: ordersystem-service
+            name: member-service
             port:
               number: 80
       - path: /order-service/(.*)
         pathType: Prefix
         backend:
           service:
-            name: ordersystem-service
+            name: order-service
             port:
               number: 80
       - path: /product-service/(.*)
         pathType: Prefix
         backend:
           service:
-            name: ordersystem-service
+            name: product-service
             port:
               number: 80                
