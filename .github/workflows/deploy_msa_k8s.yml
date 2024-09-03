@@ -40,7 +40,7 @@ jobs:
         REPOSITORY: cogns-member
       run: |
         docker build -t $REGISTRY/$REPOSITORY:latest \
-        -f ./msa/member/Dockerfile ./mas/member
+        -f ./msa/member/Dockerfile ./msa/member
         docker push $REGISTRY/$REPOSITORY:latest 
 
     - name: eks kubectl apply 
